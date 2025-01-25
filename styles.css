@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --linear-gradient:linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+}
+*{
+    margin: 0;
+    padding:0;
+}
+main{
+    background-image: url("./Images/Background Image.jpg");
+    width:100%;
+    height:90vh;
+    background-color: black;
+    position:relative;
+}
+body{
+    background-color: black;
+}
+.box{
+    width:100%;
+    height:90vh;
+    background-color: black;
+    opacity: 0.74;
+    position:absolute;
+    top:0;
+}
+.logo{
+    position:absolute;
+    top:20px;
+    left:20%;
+    width:150px;
+    color:red;
+    position:relative;
+    z-index:10;
+}
+.s-button{
+    background-color: red;
+    width:100px;
+    height:25px;
+    border-radius: 5px;
+    top:20px;
+    position: absolute;
+    right:10%;
+    z-index:10;
+    border:0;
+    color:white;
+    cursor: pointer;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+}
+.s-button:hover{
+    background-color: #800000;
+    color:white;
+}
+.span-box{
+    position:relative;
+    width:100%;
+    height:90vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    margin-bottom: 40px;
+    display:block;
+    color:white;
+    max-width: 80%;
+}
+span:nth-child(1){
+    color:white;
+    font-size: 53px;
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-weight: 900;
+    font-style: italic;
+}
+span:nth-child(2){
+    position: relative;
+    bottom:35px;
+    font-family: "Poppins", serif;;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+span:nth-child(3){
+    position:relative;
+    bottom:60px;
+    font-family: "Poppins", serif;;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+.email-box{
+    position:relative;
+    bottom:90px;
+    display: flex;
+    gap:10px;
+    width:100%;
+    justify-content: center;
+}
+.f-email-box{
+    display: flex;
+    gap:10px;
+    width:100%;
+    justify-content: center;
+}
+.f-email{
+    background-color: rgba(25,25,25,0.7);
+    width:30%;
+    height:50px;
+    padding: 0 10px;
+    color:white;
+    border:1px solid white;
+    border-radius: 4px;
+    font-size:large;
+}
+.f-e-button{
+    padding: 0 3%;
+    background-color: red;
+    color:white;
+    border:0;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.e-footer{
+    padding:70px 0 ;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap:10px;
+}
+.f-text{
+  text-align: center;
+  font-family: "Poppins", serif;;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+}
+.email{
+    background-color: rgba(25,25,25,0.7);
+    width:30%;
+    height:50px;
+    padding: 0 10px;
+    color:white;
+    border:1px solid white;
+    border-radius: 4px;
+    font-size:large;
+}
+.e-button{
+    padding: 0 3%;
+    background-color: red;
+    color:white;
+    border:0;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.e-button:hover{
+    background-color: #800000;
+    color:white;
+}
+.f-e-button:hover{
+    background-color: #800000;
+    color:white;
+}
+.divider{
+    background-color: red;
+    width:100%;
+    height:3px;
+}
+.second-main{
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin:40px auto;
+}
+.p-trend{
+    color:white;
+    font-size: 33px;
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.r-text{
+    padding:30px 0 ;
+}
+.trends{
+    padding-top:30px;
+    overflow: hidden;
+    width:100%;
+    /*background-color: purple;*/
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap:50px;
+}
+.img1,.img2,.img3,.img4,.img5,.img6,.img7{
+    min-width:200px;
+    height:250px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.img1{
+    background-image: url(./Images/1st\ Trend.webp);
+}
+.img2{
+    background-image: url(./Images/2nd\ Trend.webp);
+}
+.img3{
+    background-image: url(./Images/3rd\ Trend.webp);
+}
+.img4{
+    background-image: url(./Images/4th\ Trend.webp);
+}
+.img5{
+    background-image: url(./Images/5th\ Trend.webp);
+}
+.img6{
+    background-image: url(./Images/6th\ Trend.webp);
+}
+.img7{
+    background-image: url(./Images/7th\ Trend.webp);
+}
+.reason{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap:10px;
+}
+.r1,.r2,.r3,.r4{
+    background-image: var(--linear-gradient);
+    height:250px;
+    border-radius: 8px;
+}
+.rc{
+    margin:auto;
+    position:relative;
+    top:20px;
+    bottom:20px;
+    width:80%;
+    height: 80%;
+    text-align: left;
+    color:white;
+}
+.rc-htext{
+    font-size: 31px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 38px;
+}
+.rctext{
+    margin-top: 10px;
+    font-family: "Poppins", serif;;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: 600;
+}
+.faq{
+    cursor: pointer;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    overflow: hidden;
+}
+.faqs:hover{
+    background-color: rgb(75, 71, 71);
+}
+.faqs{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    padding:20px 0px;
+    padding-left: 20px;
+    background-color: rgb(54, 54, 54);
+    font-size:20px;
+    color:white;
+}
+.plus{
+    position:relative;
+    right:40px;
+    height:25px;
+    width:30px;
+}
+.f-text{
+    color:white;
+    font-family: "Poppins", serif;;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 600;
+}
+.qna{
+    color:rgb(206, 195, 195);
+    width: 100%;
+    text-decoration:underline;
+    font-family: "Poppins", serif;;
+    font-style: italic;
+    font-size: 16px;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    gap:20px;
+}
+.contact{
+    text-decoration:underline;
+    font-family: "Poppins", serif;;
+    font-style: italic;
+    font-size: 16px;
+    color:rgb(206, 195, 195);
+    width:100%;
+    padding-bottom: 35px;
+    cursor: pointer;
+}
+.p-qna{
+    padding:5px 0;
+    cursor: pointer;
+}
+select{
+    padding:8px 25px;
+    margin-top:70px;
+    color:white;
+    background-color: rgba(25, 25, 25, 0.44);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: medium;
+}
+.netpk{
+    padding:40px 0;
+    color: rgb(206, 195, 195);
+    font-family: "Poppins", serif;;
+    font-style: italic;
+    font-size: 16px;
+}
+.owner{
+    padding:20px 0;
+    color: white;
+    border:white 1px solid;
+    text-align: center;
+    font-family: "Poppins", serif;;
+    font-style: italic;
+    font-size: 20px;
+}
+@media only screen and (max-width:1000px) {
+    .s-button{
+        width:100px;
+    }
+    .logo{
+       width : 100px;
+    }
+}
+@media only screen and (max-width:343px){
+    nav{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        margin-top:20px;
+        position:static;
+    }
+    .s-button{
+        margin-top:10px;
+        position: static;
+    }
+}
+@media only screen and (max-width:500px){
+    span:nth-child(1){
+        font-size:30px;
+    }
+    span:nth-child(2){
+        font-size:12px;
+    }
+    span:nth-child(3),.f-text{
+        font-size:12px;
+    }
+    .email-box,.f-email-box{
+        flex-direction: column;
+        gap:15px;
+    }
+    .email,.f-email{
+        width:80%;
+        margin:0 auto;
+    }
+    .e-button,.f-e-button{
+        padding:10px 10px;
+        max-width:35%;
+        margin:0 auto;
+    }
+    .second-main{
+        width:90%;
+    }
+}
+@media only screen and (max-width:695px){
+    span:nth-child(1){
+        font-size:30px;
+    }
+    span:nth-child(2){
+        font-size:12px;
+    }
+    span:nth-child(3),.f-text{
+        font-size:12px;
+    }
+}
+@media only screen and (max-width:1276px){
+    .qna{
+        grid-template-columns:1fr 1fr 1fr ;
+    }
+}
+@media only screen and (max-width:958px){
+    .qna{
+        grid-template-columns:1fr 1fr ;
+    }
+}
+@media only screen and (max-width:598px){
+    .qna{
+        grid-template-columns:1fr;
+    }
+}
