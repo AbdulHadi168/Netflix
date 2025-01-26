@@ -347,7 +347,7 @@ select{
     font-style: italic;
     font-size: 20px;
 }
-::-webkit-scrollbar{
+.trends::-webkit-scrollbar{
     width:100%;
 }
 @media only screen and (max-width:1000px) {
