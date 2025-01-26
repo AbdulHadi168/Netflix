@@ -193,7 +193,7 @@ span:nth-child(3){
 }
 .trends{
     padding-top:30px;
-    overflow: hidden;
+    overflow: scroll;
     width:100%;
     /*background-color: purple;*/
     display:flex;
@@ -346,6 +346,9 @@ select{
     font-family: "Poppins", serif;;
     font-style: italic;
     font-size: 20px;
+}
+::-webkit-scrollbar{
+    width:0px;
 }
 @media only screen and (max-width:1000px) {
     .s-button{
