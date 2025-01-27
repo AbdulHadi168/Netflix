@@ -195,7 +195,6 @@ span:nth-child(3){
     padding-top:30px;
     overflow: scroll;
     width:100%;
-    /*background-color: purple;*/
     display:flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -206,9 +205,15 @@ span:nth-child(3){
     height:250px;
     border-radius: 8px;
     cursor: pointer;
+    transition: transform 0.2s ease-in-out 0.05s;
+}
+.img1:hover,.img2:hover,.img3:hover,.img4:hover,.img5:hover,.img6:hover,.img7:hover{
+   transform: scale(1.08);
+   border:1px solid rgb(37, 36, 36);
 }
 .img1{
     background-image: url(./1st\ Trend.webp);
+    margin-left:20px;
 }
 .img2{
     background-image: url(./2nd\ Trend.webp);
